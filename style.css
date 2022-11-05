@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+}
+  
+.flex-container div.one {
+    background: #1f2937;
+    height: 500px;
+    gap : 4px;
+  }
+
+  .flex-container div.two {
+    background: white; 
+    height: 400px;
+  
+  }
+  .flex-container div.three {
+    background: #e5e7eb;
+    height: 400px;
+  
+  }
+  .flex-container div.four {
+    background: #fff;
+    height: 200px;
+    
+  }
+  .flex-container div.five {
+    background: #1f2937;
+    height: 100px;
+  }
+  .header {
+    overflow: hidden;
+    background-color: #1f2937;
+    padding: 20px 10px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+   /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+.intro{
+    color: white;
+    font-size: 40px;
+    clear: left;
+}
+.img1{
+    height: 250px;
+    width: 600px;
+    float: right;
+    text-align: right;
+    top: 80%;
+    margin: 80px;
+}
+p{
+    color: white;
+    font-size: 30px;
+    margin: 50px;
+}
+.btn{
+    background-color: #3882f6;
+    padding: 10px;
+    float: center;
+    position: relative;
+    border-radius: 15px;
+    width:100px;
+    left: 100px;
+    bottom: 40px;
+}
+h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1e2937;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+img{
+    height: 180px;
+    border-radius: 30px;
+}
+
+.column{
+    float: left;
+    padding: 30px;
+    width: 20%;
+    text-align: center;
+}
+.row{
+margin-left: 30px;
+}
+.info{
+  color: black;
+  font-size: 15px;
+}
+.testimony{
+  color: #1f2937;
+  font-size: 36px;
+  font-family: light italic;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.author{
+  color: black;
+  font-weight: bold;
+  text-align: right;
+}
+.action{
+  background-color: #3882f6;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 30px;
+
+}
+.btn-1{
+  background-color: #3882f6;
+  border: 2px solid white;
+    padding: 10px;
+    float: right;
+    position: relative;
+    border-radius: 15px;
+    width: 100px;
+    position: absolute;
+    bottom: -144%;
+    right: 30%;
+}
+footer{
+   text-align: center;
+   padding: 20px;
+   color: white;
+}
